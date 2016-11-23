@@ -16,9 +16,8 @@ defmodule Couchex.Mixfile do
 
   defp deps do
     [
-      {:couchbeam, "~> 1.4"},
-      {:ex_doc, "~> 0.11", only: :dev},
-      {:earmark, ">= 0.0.0"}
+      {:couchbeam, git: "https://github.com/brainlid/couchbeam"},
+      {:ex_doc, "~> 0.14", only: :dev},
     ]
   end
 
